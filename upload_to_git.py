@@ -15,7 +15,7 @@ except (FileNotFoundError, KeyError):
 # GitHub 설정
 GITHUB_TOKEN = secret_data["GITHUB_TOKEN"]  # 개인 액세스 토큰 입력
 REPO_OWNER = "Grassyeochi"  # GitHub 사용자명
-REPO_NAME = "crawling_news"  # 저장소 이름
+REPO_NAME = "crawling_news_V2"  # 저장소 이름
 HTML_FILE_PATH = "index.html"  # HTML 파일 경로
 BRANCH_NAME = "release"  # 브랜치 이름
 TEXT_FILE_PATH = "upload.txt"  # 크롤링한 텍스트 파일 경로
